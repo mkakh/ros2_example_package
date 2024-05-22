@@ -1,0 +1,15 @@
+<launch>
+    <node
+        pkg="example_package"
+        exec="publisher"
+        name="publisher_node"
+        output="screen">
+    </node>
+    <node
+        pkg="example_package"
+        exec="subscriber"
+        name="subscriber_node"
+        output="screen">
+    </node>
+</launch>
+
